@@ -1,6 +1,7 @@
 /* register.css */
 .div{
   height: 100vh;
+  margin-top: auto;
 }
 .button{
   display: flex;

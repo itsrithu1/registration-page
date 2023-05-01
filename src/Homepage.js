@@ -1,4 +1,7 @@
 import React from 'react';
+import Navbar from './Navbar';
+import HeroSection from './HeroSection';
+import Footer from './Footer';
 {/* <div>
 <h1>hello </h1>
 <br/>
@@ -11,11 +14,14 @@ import React from 'react';
 
  const HomePage = () => {
     return(
-        <div>
-            <h1>hello </h1>
-            <br/>
+        <>
+        <Navbar/>
+        {/* <div>
             <h2>welcome to the home page</h2>
-        </div>
+        </div> */}
+        <HeroSection/>
+        <Footer/>
+        </>
     )
  }
 
